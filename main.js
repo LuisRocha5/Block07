@@ -8,13 +8,13 @@
 alert("You have received this message because you have been chosen to open an important vault. Here is the secret combination:");
 
 //subtract 30 from 40 to get the first code
-let code1 = 40 - 30;
+const code1 = 40 - 30;
 
 //multiply 4 by 10 to get the second code
-let code2 = 4 * 10;
+const code2 = 4 * 10;
 
 //add 20 and 19 to get the third code
-let code3 = 20 + 19;
+const code3 = 20 + 19;
 
 //Display the Combination to user
 alert("The combination is: " + code1 + " - " + code2 + " - " + code3);
